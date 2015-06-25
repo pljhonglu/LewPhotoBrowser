@@ -1,0 +1,37 @@
+PODS:
+  - DACircularProgress (2.3.1)
+  - LewReorderableLayout (0.1.0)
+  - MBProgressHUD (0.9.1)
+  - MWPhotoBrowser (1.4.1):
+    - DACircularProgress
+    - MBProgressHUD (~> 0.8)
+    - PSTCollectionView (~> 1.2)
+    - SDWebImage (~> 3.7)
+  - PSTCollectionView (1.2.3)
+  - SDWebImage (3.7.2):
+    - SDWebImage/Core (= 3.7.2)
+  - SDWebImage/Core (3.7.2)
+
+DEPENDENCIES:
+  - LewReorderableLayout (from `https://github.com/pljhonglu/LewReorderableLayout.git`, tag `v0.1.0`)
+  - MWPhotoBrowser
+
+EXTERNAL SOURCES:
+  LewReorderableLayout:
+    :git: https://github.com/pljhonglu/LewReorderableLayout.git
+    :tag: v0.1.0
+
+CHECKOUT OPTIONS:
+  LewReorderableLayout:
+    :git: https://github.com/pljhonglu/LewReorderableLayout.git
+    :tag: v0.1.0
+
+SPEC CHECKSUMS:
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  LewReorderableLayout: b67d3117c208f54fe20aaca614779e7089618206
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  MWPhotoBrowser: 2531e682860d62b8a7ba8659de02eb9040e431e5
+  PSTCollectionView: 6749df92885353521f55279a7ce2b293762e2be4
+  SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
+
+COCOAPODS: 0.36.0.beta.1
